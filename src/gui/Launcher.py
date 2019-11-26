@@ -28,7 +28,6 @@ def remplir_tableau():
                     bombes[i, j+1] += 1
 
 bombes = np.zeros([HAUTEUR, LARGEUR], dtype=int)
-print(bombes[0, 0])
 
 for i in range(0, 10):
     x = randint(0, HAUTEUR - 1)
